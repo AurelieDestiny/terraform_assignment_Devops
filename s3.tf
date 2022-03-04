@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 
 resource "aws_s3_bucket" "devzbucketz" {
   bucket = "dev-20220225"
